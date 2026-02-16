@@ -57,3 +57,62 @@ export const cases = [
         name: "Fractal Design Meshify C", price: 120.88, img: "src/assets/nzxt.jpeg"
     }
 ];
+export const motherboards = [
+    {
+        name: "ASUS ROG Strix Z690-E", price: 400, img: "src/assets/motherboard.jpg"
+    },
+    {
+        name: "MSI MAG B660 Tomahawk", price: 200, img: "src/assets/motherboard.jpg"
+    },
+    {
+        name: "Gigabyte A520M DS3H", price: 80, img: "src/assets/motherboard.jpg"
+    },
+    {
+        name: "ASRock B450 Steel Legend", price: 120, img: "src/assets/motherboard.jpg"
+    }
+];
+
+export const psus = [
+    {
+        name: "Corsair RM750x", price: 130, img: "src/assets/psu.jpeg"
+    },
+    {
+        name: "EVGA SuperNOVA 650 G5", price: 100, img: "src/assets/psu.jpeg"
+    },
+    {
+        name: "Seasonic Focus GX-550", price: 90, img: "src/assets/psu.jpeg"
+    },
+    {
+        name: "Cooler Master MWE 600", price: 60, img: "src/assets/psu.jpeg"
+    }
+];
+
+export const storages = [
+    {
+        name: "Samsung 970 EVO 1TB NVMe SSD", price: 100, img: "src/assets/storage.jpg"
+    },
+    {
+        name: "WD Blue 2TB HDD", price: 60, img: "src/assets/storage.jpg"
+    },
+    {
+        name: "Crucial MX500 500GB SATA SSD", price: 50, img: "src/assets/storage.jpg"
+    },
+    {
+        name: "Seagate Barracuda 4TB HDD", price: 100, img: "src/assets/storage.jpg"
+    }
+];
+
+export const coolers = [
+    {
+        name: "Noctua NH-D15", price: 100, img: "src/assets/cooler.jpeg"
+    },
+    {
+        name: "Corsair H100i Elite Capellix", price: 150, img: "src/assets/cooler.jpeg"
+    },
+    {
+        name: "be quiet! Dark Rock Pro 4", price: 90, img: "src/assets/cooler.jpeg"
+    },
+    {
+        name: "Cooler Master Hyper 212 EVO", price: 35, img: "src/assets/cooler.jpeg"
+    }
+];

@@ -20,8 +20,16 @@ export function updateBuild() {
     buildLabel.innerHTML = "";
 
     // Define part types
-    const partTypes = ['cpu', 'gpu', 'ram', 'case'];
+    const partTypes = ['cpu', 'gpu', 'ram', 'case', 'motherboard', 'psu', 'storage', 'cooler'];
     const selectedParts = {};
+
+    // added other parts. 
+    const displayNames = {
+        motherboard: 'Board',
+        psu: 'PSU',
+        storage: 'Storage',
+        cooler: 'Cooler'
+    };
 
     // Group parts by type
     buildList.forEach(part => {
@@ -31,11 +39,12 @@ export function updateBuild() {
 
     // Display each type
     partTypes.forEach(type => {
+        const displayName = displayNames[type] || type.toUpperCase();
         const part = selectedParts[type];
         if (part) {
-            buildLabel.innerHTML += `<p style="display: flex; justify-content: space-between; align-items: center;">${type.toUpperCase()}: ${part.name} - $${part.price} <button style="background-color: red; color: white; border: none; padding: 2px 5px;" onclick="window.removePart('${type}')">Clear</button></p>`;
+            buildLabel.innerHTML += `<p style="display: flex; justify-content: space-between; align-items: center;">${displayName}: ${part.name} - $${part.price} <button style="background-color: red; color: white; border: none; padding: 2px 5px;" onclick="window.removePart('${type}')">Clear</button></p>`;
         } else {
-            buildLabel.innerHTML += `<p>${type.toUpperCase()}: Select a ${type.toUpperCase()}</p>`;
+            buildLabel.innerHTML += `<p>${displayName}: Select a ${displayName}</p>`;
         }
     });
 
@@ -45,9 +54,23 @@ export function updateBuild() {
 
 // clear list and set storage to empty list.
 export function clearBuild() {
-    buildList.length = 0;
-    updateBuild();
-    alert("Thank you for building with retro pc picker.");
+    // Define part types
+    const partTypes = ['cpu', 'gpu', 'ram', 'case', 'motherboard', 'psu', 'storage', 'cooler'];
+    const selectedParts = {};
+    // Group parts by type
+    buildList.forEach(part => {
+        selectedParts[part.type] = part;
+    });
+    // Check if all types are filled
+    const allFilled = partTypes.every(type => selectedParts[type]);
+
+    if (allFilled) {
+        buildList.length = 0;
+        updateBuild();
+        alert("Thank you for building with retro pc picker.");
+    } else {
+        alert("Incomplete build");
+    }
 }
 
 export function removePart(type) {

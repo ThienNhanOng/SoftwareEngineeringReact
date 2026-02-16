@@ -122,7 +122,7 @@ body {
 .menu-buttons {
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 10px;
 }
 
 .menu-buttons button {

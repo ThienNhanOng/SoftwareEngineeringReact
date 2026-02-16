@@ -12,6 +12,10 @@ const SlidingMenu = ({ menuOpen, subMenuType, setSubMenuType, getParts }) => {
             <button onClick={() => setSubMenuType(subMenuType === 'gpu' ? null : 'gpu')}>GPU</button>
             <button onClick={() => setSubMenuType(subMenuType === 'ram' ? null : 'ram')}>RAM</button>
             <button onClick={() => setSubMenuType(subMenuType === 'case' ? null : 'case')}>Case</button>
+            <button onClick={() => setSubMenuType(subMenuType === 'motherboard' ? null : 'motherboard')}>Motherboard</button>
+            <button onClick={() => setSubMenuType(subMenuType === 'psu' ? null : 'psu')}>PSU</button>
+            <button onClick={() => setSubMenuType(subMenuType === 'storage' ? null : 'storage')}>Storage</button>
+            <button onClick={() => setSubMenuType(subMenuType === 'cooler' ? null : 'cooler')}>Cooler</button>
           </div>
         </div>
       )}

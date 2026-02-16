@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { total } from './buildHandler.js';
 import SubMenu from './subMenus.jsx';
-import { cpus, gpus, rams, cases } from './computerParts.js';
+import { cpus, gpus, rams, cases, motherboards, psus, storages, coolers } from './computerParts.js';
 import SlidingMenu from './slidingMenu.jsx';
 
 const Header = () => {
@@ -27,6 +27,11 @@ const Header = () => {
       case 'gpu': return gpus;
       case 'ram': return rams;
       case 'case': return cases;
+      case 'motherboard': return motherboards;
+      case 'psu': return psus;
+      case 'storage': return storages;
+      case 'cooler': return coolers;
+      default: return [];
     }
   };
 
