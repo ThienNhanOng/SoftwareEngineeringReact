@@ -4,8 +4,10 @@ import SubMenu from './subMenus.jsx';
 import { cpus, gpus, rams, cases } from './computerParts.js';
 
 const Header = () => {
-  const [menuOpen, setMenuOpen] = useState(false); // menu state
-  const [subMenuType, setSubMenuType] = useState(null); // submenu type: 'cpu', 'gpu', 'ram', or null
+  // menu state
+  const [menuOpen, setMenuOpen] = useState(false); 
+  // sub menu for part type (cpu, gpu, ram, case)
+  const [subMenuType, setSubMenuType] = useState(null); 
 
   // start build close/open menus
   const toggleMenu = () => {
@@ -30,7 +32,7 @@ const Header = () => {
   return (
     <>
       <header className="PCPartheader">
-        <h1>PC Part Picker</h1>
+        <h1>(BAD) PC Part Picker</h1>
 
         {/* navbar buttons */}
         <div className="navBarButtons">
