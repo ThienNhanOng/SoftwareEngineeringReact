@@ -20,6 +20,11 @@ const TotalSection = () => {
           <p style={{ fontSize: '2.25rem' }} className="primary-font"><b>Your Build</b></p>
         </div>
 
+        {/* clear build button */}
+        <div id="clear-build" style={{ display: 'flex', gap: '5px', alignItems: 'center', justifyContent: 'center', marginBottom: '20px' }}>
+          <button onClick={clearBuild}>Finalize Build</button>
+        </div>
+
         {/* build placeholder */}
         <div className="PartsInBuild" id="build">
           <ul>
@@ -34,12 +39,6 @@ const TotalSection = () => {
         <div className="buildTotal" id="total">
           <p style={{ fontSize: '2rem' }} className="primary-font"><b>Total: $0.00</b></p>
         </div>
-
-        {/* clear build button */}
-        <div id="clear-build" style={{ display: 'flex', gap: '5px', alignItems: 'right' }}>
-          <button onClick={clearBuild}>Finalize Build</button>
-        </div>
-
 
       </section>
     </section>
