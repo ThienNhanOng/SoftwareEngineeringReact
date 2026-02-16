@@ -11,8 +11,7 @@ const PartMenu = () => {
       <h2 className="part-menu-title">Available Parts</h2>
       <div className="part-menu-slider">
 
-      {/*  */}
-
+      {/* Map individual button to their array for part type */}
         {parts.map((part) => (
           <button key={part} className="part-chip" type="button">
             {part}
