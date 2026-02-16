@@ -1,4 +1,4 @@
-import { addPartToList } from './partHandler.js';
+import { addPartToList } from './buildHandler.js';
 // horizontal menu for parts
 
 // item = the object ryzen 5, 5080 etc

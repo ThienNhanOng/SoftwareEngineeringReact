@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { buildList, total } from './partHandler.js';
+import { total } from './buildHandler.js';
 import SubMenu from './subMenus.jsx';
 import { cpus, gpus, rams, cases } from './computerParts.js';
 import SlidingMenu from './slidingMenu.jsx';
@@ -20,20 +20,20 @@ const Header = () => {
     }
   }; 
 
+  // get the list for the type
   const getParts = (type) => {
     switch (type) {
       case 'cpu': return cpus;
       case 'gpu': return gpus;
       case 'ram': return rams;
       case 'case': return cases;
-      default: return [];
     }
   };
 
   return (
     <>
       <header className="PCPartheader">
-        <h1>(BAD) PC Part Picker</h1>
+        <h1>RETRO PC Part Picker</h1>
 
         {/* navbar buttons */}
         <div className="navBarButtons">

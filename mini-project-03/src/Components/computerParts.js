@@ -45,70 +45,15 @@ export const rams = [
 
 export const cases = [
     {
-        name: "Fractal Design Define 7", price: 150, img: "src/assets/nzxt.jpeg"
+        name: "Fractal Design Define 7", price: 150.23, img: "src/assets/nzxt.jpeg"
     },
     {
-        name: "Corsair 4000D Airflow", price: 100, img: "src/assets/nzxt.jpeg"
+        name: "Corsair 4000D Airflow", price: 100.45, img: "src/assets/nzxt.jpeg"
     },
     {
-        name: "Lian Li PC-O11 Dynamic", price: 200, img: "src/assets/nzxt.jpeg"
+        name: "Lian Li PC-O11 Dynamic", price: 200.11, img: "src/assets/nzxt.jpeg"
     },
     {
-        name: "Fractal Design Meshify C", price: 120, img: "src/assets/nzxt.jpeg"
+        name: "Fractal Design Meshify C", price: 120.88, img: "src/assets/nzxt.jpeg"
     }
 ];
-
-const generateCard = (name, price, img) => {
-    // create a div to store a card in
-    const cardContainer = document.createElement("div");
-
-    // set the card containers class to be card (for formatting)
-    cardContainer.classList.add("card");
-
-    // set up the image
-    const cpuImg = document.createElement("img");
-    cpuImg.src = img;
-    cpuImg.alt = "";
-    cpuImg.style = "width:300px; height:auto";
-
-    // create the name header
-    const cpuNameHeader = document.createElement("h3");
-    cpuNameHeader.classList.add("primary-font");
-    cpuNameHeader.style = "font-size:1.5rem";
-    cpuNameHeader.textContent = name;
-
-    // create the price caption
-    const cpuPrice = document.createElement("h3");
-    cpuPrice.classList.add("primary-font");
-    cpuPrice.style = "font-size:1rem";
-    cpuPrice.textContent = "$" + price.toFixed(2);
-
-    // create button
-    const addToBuildButton = document.createElement("button");
-    addToBuildButton.textContent = "ADD TO BUILD";
-
-    // add cpu to list on clicked
-    addToBuildButton.addEventListener("click", () => {
-        addPartToList(name, price, img);
-    });
-
-    // append components to card
-    cardContainer.appendChild(cpuImg);
-    cardContainer.appendChild(cpuNameHeader);
-    cardContainer.appendChild(cpuPrice);
-    cardContainer.appendChild(addToBuildButton);
-
-    // append card to the card section
-    cardSection.appendChild(cardContainer);
-}
-
-const showCPUs = () => {
-    // clear previous cards
-    cardSection.innerHTML = "";
-    // add all cards to the section on the document
-    cpus.forEach(element => {
-        generateCard(element.name, element.price, element.img);
-    });
-}
-
-window.showCPUs = showCPUs;

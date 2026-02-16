@@ -1,5 +1,5 @@
-import { clearBuild, removePart } from './partHandler.js';
-
+import { clearBuild } from './buildHandler.js';
+// body. 
 const BodyPiece = () => {
   return (
     <main className="bodyPiece">
@@ -11,7 +11,7 @@ const BodyPiece = () => {
     </main>
   );
 };
-
+// blank section to show label and total
 const TotalSection = () => {
   return (
     <section className="total-section primary-font">
@@ -37,7 +37,7 @@ const TotalSection = () => {
 
         {/* clear build button */}
         <div id="clear-build" style={{ display: 'flex', gap: '5px', alignItems: 'right' }}>
-          <button onClick={clearBuild}>Clear All</button>
+          <button onClick={clearBuild}>Finalize Build</button>
         </div>
 
 

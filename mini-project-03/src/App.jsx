@@ -2,9 +2,8 @@ import { useState } from 'react'
 import './App.css'
 import Header from './Components/headerPiece'
 import BodyPiece from './Components/bodyPiece'
-import PartMenu from './Components/MenuHandler'
+import PartMenu from './Components/menuHandler.jsx'
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>

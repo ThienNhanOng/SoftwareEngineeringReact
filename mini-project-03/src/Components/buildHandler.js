@@ -47,7 +47,7 @@ export function updateBuild() {
 export function clearBuild() {
     buildList.length = 0;
     updateBuild();
-    alert("Reset Build");
+    alert("Thank you for building with retro pc picker.");
 }
 
 export function removePart(type) {
