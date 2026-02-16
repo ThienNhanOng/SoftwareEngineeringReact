@@ -47,7 +47,8 @@ header contains a navigation bar which has 1 button
 which is start build which open a menu. 
 it also show the total top right.
 
-
+dist:
+to be deployed
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
