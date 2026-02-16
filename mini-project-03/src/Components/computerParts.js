@@ -30,89 +30,89 @@ export const gpus = [
 
 export const rams = [
     {
-        name: "Corsair Vengeance", price: 100.50, img: "/assets/ram.jpeg"
+        name: "Corsair Vengeance", price: 100.50, img: "src/assets/ram.jpeg"
     },
     {
-        name: "G.Skill Trident Z", price: 200.50, img: "/assets/ram.jpeg"
+        name: "G.Skill Trident Z", price: 200.50, img: "src/assets/ram.jpeg"
     },
     {
-        name: "Kingston FURY Beast", price: 300.99, img: "/assets/ram.jpeg"
+        name: "Kingston FURY Beast", price: 300.99, img: "src/assets/ram.jpeg"
     },
     {
-        name: "Crucial Ballistix", price: 400.99, img: "/assets/ram.jpeg"
+        name: "Crucial Ballistix", price: 400.99, img: "src/assets/ram.jpeg"
     }
 ];
 
 export const cases = [
     {
-        name: "Fractal Design Define 7", price: 150, img: "/assets/nzxt.jpeg"
+        name: "Fractal Design Define 7", price: 150.23, img: "src/assets/nzxt.jpeg"
     },
     {
-        name: "Corsair 4000D Airflow", price: 100, img: "/assets/nzxt.jpeg"
+        name: "Corsair 4000D Airflow", price: 100.45, img: "src/assets/nzxt.jpeg"
     },
     {
-        name: "Lian Li PC-O11 Dynamic", price: 200, img: "/assets/nzxt.jpeg"
+        name: "Lian Li PC-O11 Dynamic", price: 200.11, img: "src/assets/nzxt.jpeg"
     },
     {
-        name: "Fractal Design Meshify C", price: 120, img: "/assets/nzxt.jpeg"
+        name: "Fractal Design Meshify C", price: 120.88, img: "src/assets/nzxt.jpeg"
     }
 ];
 export const motherboards = [
     {
-        name: "ASUS ROG Strix Z690-E", price: 400, img: "/assets/motherboard.jpeg"
+        name: "ASUS ROG Strix Z690-E", price: 400, img: "src/assets/motherboard.jpg"
     },
     {
-        name: "MSI MAG B660 Tomahawk", price: 200, img: "/assets/motherboard.jpeg"
+        name: "MSI MAG B660 Tomahawk", price: 200, img: "src/assets/motherboard.jpg"
     },
     {
-        name: "Gigabyte A520M DS3H", price: 80, img: "/assets/motherboard.jpeg"
+        name: "Gigabyte A520M DS3H", price: 80, img: "src/assets/motherboard.jpg"
     },
     {
-        name: "ASRock B450 Steel Legend", price: 120, img: "/assets/motherboard.jpeg"
+        name: "ASRock B450 Steel Legend", price: 120, img: "src/assets/motherboard.jpg"
     }
 ];
 
 export const psus = [
     {
-        name: "Corsair RM750x", price: 130, img: "/assets/psu.jpeg"
+        name: "Corsair RM750x", price: 130, img: "src/assets/psu.jpeg"
     },
     {
-        name: "EVGA SuperNOVA 650 G5", price: 100, img: "/assets/psu.jpeg"
+        name: "EVGA SuperNOVA 650 G5", price: 100, img: "src/assets/psu.jpeg"
     },
     {
-        name: "Seasonic Focus GX-550", price: 90, img: "/assets/psu.jpeg"
+        name: "Seasonic Focus GX-550", price: 90, img: "src/assets/psu.jpeg"
     },
     {
-        name: "Cooler Master MWE 600", price: 60, img: "/assets/psu.jpeg"
+        name: "Cooler Master MWE 600", price: 60, img: "src/assets/psu.jpeg"
     }
 ];
 
 export const storages = [
     {
-        name: "Samsung 970 EVO 1TB NVMe SSD", price: 100, img: "/assets/storage.jpeg"
+        name: "Samsung 970 EVO 1TB NVMe SSD", price: 100, img: "src/assets/storage.jpg"
     },
     {
-        name: "WD Blue 2TB HDD", price: 60, img: "/assets/storage.jpeg"
+        name: "WD Blue 2TB HDD", price: 60, img: "src/assets/storage.jpg"
     },
     {
-        name: "Crucial MX500 500GB SATA SSD", price: 50, img: "/assets/storage.jpeg"
+        name: "Crucial MX500 500GB SATA SSD", price: 50, img: "src/assets/storage.jpg"
     },
     {
-        name: "Seagate Barracuda 4TB HDD", price: 100, img: "/assets/storage.jpeg"
+        name: "Seagate Barracuda 4TB HDD", price: 100, img: "src/assets/storage.jpg"
     }
 ];
 
 export const coolers = [
     {
-        name: "Noctua NH-D15", price: 100, img: "/assets/cooler.jpeg"
+        name: "Noctua NH-D15", price: 100, img: "src/assets/cooler.jpeg"
     },
     {
-        name: "Corsair H100i Elite Capellix", price: 150, img: "/assets/cooler.jpeg"
+        name: "Corsair H100i Elite Capellix", price: 150, img: "src/assets/cooler.jpeg"
     },
     {
-        name: "be quiet! Dark Rock Pro 4", price: 90, img: "/assets/cooler.jpeg"
+        name: "be quiet! Dark Rock Pro 4", price: 90, img: "src/assets/cooler.jpeg"
     },
     {
-        name: "Cooler Master Hyper 212 EVO", price: 35, img: "/assets/cooler.jpeg"
+        name: "Cooler Master Hyper 212 EVO", price: 35, img: "src/assets/cooler.jpeg"
     }
 ];

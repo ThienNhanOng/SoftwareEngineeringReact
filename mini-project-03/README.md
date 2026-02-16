@@ -1,6 +1,6 @@
 Thien Ong
 
-Live link: https://beautiful-daffodil-bb944e.netlify.app 
+Live link: https://beautiful-daffodil-bb944e.netlify.app
 
 summary: this app is to build a full computer with the assumption that
 every part work with each other. allowing users to pick any part they want. 
