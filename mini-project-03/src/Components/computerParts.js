@@ -59,16 +59,16 @@ export const cases = [
 ];
 export const motherboards = [
     {
-        name: "ASUS ROG Strix Z690-E", price: 400, img: "/assets/motherboard.jpeg"
+        name: "ASUS ROG Strix Z690-E", price: 400, img: "/assets/motherboard.jpg"
     },
     {
-        name: "MSI MAG B660 Tomahawk", price: 200, img: "/assets/motherboard.jpeg"
+        name: "MSI MAG B660 Tomahawk", price: 200, img: "/assets/motherboard.jpg"
     },
     {
-        name: "Gigabyte A520M DS3H", price: 80, img: "/assets/motherboard.jpeg"
+        name: "Gigabyte A520M DS3H", price: 80, img: "/assets/motherboard.jpg"
     },
     {
-        name: "ASRock B450 Steel Legend", price: 120, img: "/assets/motherboard.jpeg"
+        name: "ASRock B450 Steel Legend", price: 120, img: "/assets/motherboard.jpg"
     }
 ];
 
