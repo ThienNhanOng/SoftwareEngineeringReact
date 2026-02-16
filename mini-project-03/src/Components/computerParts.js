@@ -89,30 +89,30 @@ export const psus = [
 
 export const storages = [
     {
-        name: "Samsung 970 EVO 1TB NVMe SSD", price: 100, img: "src/assets/storage.jpg"
+        name: "Samsung 970 EVO 1TB NVMe SSD", price: 100, img: "/assets/storage.jpg"
     },
     {
-        name: "WD Blue 2TB HDD", price: 60, img: "src/assets/storage.jpg"
+        name: "WD Blue 2TB HDD", price: 60, img: "/assets/storage.jpg"
     },
     {
-        name: "Crucial MX500 500GB SATA SSD", price: 50, img: "src/assets/storage.jpg"
+        name: "Crucial MX500 500GB SATA SSD", price: 50, img: "/assets/storage.jpg"
     },
     {
-        name: "Seagate Barracuda 4TB HDD", price: 100, img: "src/assets/storage.jpg"
+        name: "Seagate Barracuda 4TB HDD", price: 100, img: "/assets/storage.jpg"
     }
 ];
 
 export const coolers = [
     {
-        name: "Noctua NH-D15", price: 100, img: "src/assets/cooler.jpeg"
+        name: "Noctua NH-D15", price: 100, img: "/assets/cooler.jpeg"
     },
     {
-        name: "Corsair H100i Elite Capellix", price: 150, img: "src/assets/cooler.jpeg"
+        name: "Corsair H100i Elite Capellix", price: 150, img: "/assets/cooler.jpeg"
     },
     {
-        name: "be quiet! Dark Rock Pro 4", price: 90, img: "src/assets/cooler.jpeg"
+        name: "be quiet! Dark Rock Pro 4", price: 90, img: "/assets/cooler.jpeg"
     },
     {
-        name: "Cooler Master Hyper 212 EVO", price: 35, img: "src/assets/cooler.jpeg"
+        name: "Cooler Master Hyper 212 EVO", price: 35, img: "/assets/cooler.jpeg"
     }
 ];
