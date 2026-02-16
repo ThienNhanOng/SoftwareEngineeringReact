@@ -23,6 +23,8 @@ it contains the build list storing each item type name price and image.
 allow user to add/remove parts.
 if part exist/already selected with an item, it override the existing item with the new selected one example: ryzen 5 --> ryzen 7
 
+if build is incomplete display build not complete
+if it is make purchase and clear list.
 
 sliding Menu:
 set each button to its menu style 
